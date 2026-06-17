@@ -1,41 +1,86 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Contact Manager
+
+A modern Contact Management application built with Next.js, TypeScript, and Tailwind CSS that allows users to efficiently manage their contacts through a clean and responsive interface.
+
+## Features
+
+* Add new contacts
+* View all contacts in a structured list
+* Edit existing contact information
+* Delete contacts
+* Responsive user interface
+* Dynamic routing with Next.js App Router
+* Type-safe development using TypeScript
+* Modern UI with Tailwind CSS
+
+## Tech Stack
+
+### Frontend
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+
+### Development Tools
+
+* ESLint / Biome
+* Git & GitHub
+
+## Project Structure
+
+src/
+├── app/
+│ ├── contact/
+│ ├── components/
+│ ├── actions/
+│ ├── api/
+│ └── page.tsx
+├── lib/
+├── types/
+└── public/
 
 ## Getting Started
 
-First, run the development server:
+### Clone the Repository
 
-```bash
+git clone <repository-url>
+
+### Install Dependencies
+
+npm install
+
+### Run Development Server
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Learning Objectives
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project was built to practice:
 
-## Learn More
+* Next.js App Router
+* Dynamic Routing
+* CRUD Operations
+* Server Actions
+* Component-Based Architecture
+* TypeScript Integration
+* State Management
+* Clean Folder Structure
 
-To learn more about Next.js, take a look at the following resources:
+## Future Enhancements
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* User Authentication
+* Search Contacts
+* Pagination
+* Contact Categories
+* Profile Pictures
+* Export Contacts
+* Cloud Database Integration
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Author
 
-## Deploy on Vercel
+Mohammed
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Contact-manager
-Created basic contact manager using next.js and type script 
->>>>>>> d57fde9fc836cc4ac7310e070212960e3a17ef62
+Aspiring MERN Stack Developer focused on building scalable full-stack applications using React, Next.js, Node.js, Express.js, and MongoDB.
